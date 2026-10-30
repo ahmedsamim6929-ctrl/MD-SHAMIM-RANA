@@ -3,155 +3,106 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Welding Qualification Profile</title>
+<title>MD SHAMMIM RANA - Welding Profile</title>
 <style>
-* {
-  box-sizing: border-box;
-}
 body {
-  margin: 0;
-  padding: 25px 12px;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #101b2b, #263c52);
-  color: #222;
+  background: #eef2f5;
+  padding: 20px;
 }
 .card {
-  max-width: 520px;
-  margin: 25px auto;
-  background: #fff;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 12px 35px rgba(0,0,0,.35);
+  max-width: 420px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #0002;
 }
-.header {
-  background: #102b46;
-  color: white;
-  text-align: center;
-  padding: 30px 15px;
-  border-bottom: 5px solid #d5a63c;
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 10px;
 }
-.header h1 {
+.title-wrap {
+  flex: 1;
+}
+h2 {
   margin: 0;
-  font-size: 23px;
-  letter-spacing: 1px;
-}
-.header p {
-  margin: 9px 0 0;
-  color: #e7c66f;
-  font-size: 13px;
-  letter-spacing: 2px;
-}
-.content {
-  padding: 25px 22px;
-}
-.status {
   text-align: center;
-  color: #167447;
-  background: #e7f6ed;
-  padding: 11px;
-  border-radius: 8px;
+  color: #123b59;
+  font-size: 26px;
+}
+.subtitle {
+  text-align: center;
+  color: #16805b;
   font-weight: bold;
-  margin-bottom: 22px;
+  margin: 10px 0 15px;
 }
-.row {
-  padding: 13px 2px;
-  border-bottom: 1px solid #e6e6e6;
+.qr-box {
+  width: 96px;
+  height: 96px;
+  border: 2px solid #dfe9ef;
+  border-radius: 12px;
+  padding: 6px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
-.label {
+.qr-box img {
+  width: 100%;
+  height: 100%;
   display: block;
-  color: #777;
+  border-radius: 8px;
+}
+hr { border: 1px solid #eee; }
+.info {
+  padding: 11px 0;
+  border-bottom: 1px solid #eee;
+}
+.label { color: #777; font-size: 13px; }
+.value { font-weight: bold; color: #222; margin-top: 5px; }
+.note {
+  margin-top: 20px;
   font-size: 12px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-}
-.value {
-  font-size: 16px;
-  font-weight: bold;
-  color: #142b43;
-  overflow-wrap: anywhere;
-}
-.qualification {
-  margin-top: 22px;
-  padding: 20px 12px;
-  background: #102b46;
-  color: white;
-  text-align: center;
-  border-radius: 10px;
-}
-.qualification small {
-  color: #e7c66f;
-}
-.qualification h2 {
-  margin: 10px 0 0;
-  font-size: 25px;
-}
-.footer {
-  background: #f4f5f7;
-  text-align: center;
-  padding: 18px 15px;
-  font-size: 11px;
   color: #777;
-  line-height: 1.6;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .top {
+    flex-direction: column;
+  }
+  .qr-box {
+    width: 110px;
+    height: 110px;
+  }
 }
 </style>
 </head>
 <body>
-
 <div class="card">
-  <div class="header">
-    <h1>WELDING QUALIFICATION</h1>
-    <p>PERSONAL PROFILE</p>
-  </div>
-
-  <div class="content">
-    <div class="status">● PROFILE INFORMATION</div>
-
-    <div class="row">
-      <span class="label">Full Name</span>
-      <span class="value">MD SHAMMIM RANA</span>
+  <div class="top">
+    <div class="title-wrap">
+      <h2>WELDING QUALIFICATION PROFILE</h2>
+      <p class="subtitle">FCAW WELDER</p>
     </div>
-
-    <div class="row">
-      <span class="label">ID Number</span>
-      <span class="value">2494364744</span>
-    </div>
-
-    <div class="row">
-      <span class="label">Card Number</span>
-      <span class="value">HIT-OC-2197</span>
-    </div>
-
-    <div class="row">
-      <span class="label">Company</span>
-      <span class="value">PRIVATE</span>
-    </div>
-
-    <div class="qualification">
-      <small>WELDING QUALIFICATION LEVEL</small>
-      <h2>FCAW-2G-3G-4G</h2>
-    </div>
-
-    <div class="row">
-      <span class="label">Issue Date</span>
-      <span class="value">28-03-2026</span>
-    </div>
-
-    <div class="row">
-      <span class="label">Expiry Date</span>
-      <span class="value">27-03-2027</span>
-    </div>
-
-    <div class="row">
-      <span class="label">Contact Number</span>
-      <span class="value">+966 53 980 4838</span>
+    <div class="qr-box">
+      <img alt="QR code for welding profile" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=MD%20SHAMMIM%20RANA%20%7C%20FCAW%20WELDER%20%7C%20ID%20NUMBER%202494364744%20%7C%20PHONE%20%2B966%2053%20980%204838">
     </div>
   </div>
-
-  <div class="footer">
-    Information provided by the individual.<br>
-    This page is not an official TÜV verification record.
-  </div>
+  <hr>
+  <div class="info"><div class="label">Name</div><div class="value">MD SHAMMIM RANA</div></div>
+  <div class="info"><div class="label">ID Number</div><div class="value">2494364744</div></div>
+  <div class="info"><div class="label">Level / Type</div><div class="value">FCAW - 2G / 3G / 4G</div></div>
+  <div class="info"><div class="label">Card Number</div><div class="value">HIT-OC-2197</div></div>
+  <div class="info"><div class="label">Company</div><div class="value">PRIVATE</div></div>
+  <div class="info"><div class="label">Issue Date</div><div class="value">28-03-2026</div></div>
+  <div class="info"><div class="label">Expiry Date</div><div class="value">27-03-2027</div></div>
+  <div class="info"><div class="label">Phone</div><div class="value">+966 53 980 4838</div></div>
+  <p class="note">Information provided by the individual. This page is not an official TÜV verification record.</p>
 </div>
-
 </body>
-  </html>
+</html>
